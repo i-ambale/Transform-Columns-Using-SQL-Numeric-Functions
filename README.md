@@ -67,7 +67,9 @@ Contact
 For questions or feedback, please contact:
 
 Email: your_email@example.com
+
 GitHub: Your GitHub Profile
+
 Thank you for exploring this repository! We hope it helps you deepen your understanding of SQL numeric functions and their applications.
 
 
