@@ -22,7 +22,7 @@ pip install mysql-connector-python pymysql
 ```
 Basic knowledge of SQL and Python is required.
 Dataset Description
-The Access_to_Basic_Services table contains numerical data related to access to basic services (e.g., water, electricity, sanitation) across different regions or countries. The exact structure of the table may include columns such as:
+The Access_to_Basic_Services table contains numerical data on access to basic services (e.g., water, electricity, sanitation) across different regions or countries. The exact structure of the table may include columns such as:
 
 country_name
 year
@@ -58,18 +58,10 @@ The ROUND function rounds a numerical column to a specified number of decimal pl
 SELECT country_name, ROUND(sanitation_access_percentage, 2) AS rounded_sanitation_access
 FROM Access_to_Basic_Services;
 ```
-
+---
 Notes
 Ensure that the numerical columns in your dataset do not contain negative values when using SQRT or LOG, as these functions are undefined for negative numbers.
 Always back up your database before running transformation queries to avoid accidental data loss.
-Contributing
-If you'd like to contribute to this project, please follow these steps:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Submit a pull request with a detailed description of your changes.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
 For questions or feedback, please contact:
